@@ -23,16 +23,19 @@ export default function About() {
         <h2 className="about-title">ABOUT<br />ME</h2>
         <div className="about-body">
           <p>
-            👋 Hi, my name is <strong>Akshar</strong>!
+            👋 Hey, I'm <strong>Akshar Patel</strong>!
           </p>
           <p>
-            🎓 I'm a recent graduate from <strong>Wilfrid Laurier University</strong> with a Bachelor's in Computer Science.
+            🎓 Recent graduate from <strong>Wilfrid Laurier University</strong> with a Bachelor's of Computer Science.
           </p>
           <p>
-            🤖 I love building cool end-to-end projects recently those powered by <strong>AI</strong>. Most recently I've been working on an <strong>AI-powered finance tracker</strong> that makes managing money actually fun.
+            🤖 I'm obsessed with <strong>AI</strong> and what you can build when you mix it with solid engineering.
           </p>
           <p>
-            🏢 I've had the pleasure of working at some awesome companies including <strong>Intuit</strong>, <strong>Interac Corp</strong>, and <strong>First National Financial (twice)</strong>.
+            🧠 Recently I've been working on an <strong>AI-powered quantitative research platform</strong> because why not let machines do the hard thinking.
+          </p>
+          <p>
+            🏢 I've shipped real products at <strong>Intuit</strong>, <strong>Interac Corp</strong>, and <strong>First National Financial (twice)</strong> and I'm just getting started.
           </p>
         </div>
       </div>

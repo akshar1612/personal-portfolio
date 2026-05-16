@@ -2,6 +2,7 @@ import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Marquee from "./components/Marquee";
 import Work from "./components/Work";
+import Projects from "./components/Projects";
 import Canvas3DSection from "./components/Canvas3DSection";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -16,6 +17,7 @@ export default function App() {
       <Marquee />
       <About />
       <Work />
+      <Projects />
       <div id="canvas3d-section">
         <Canvas3DSection />
         <div className="canvas3d-label">

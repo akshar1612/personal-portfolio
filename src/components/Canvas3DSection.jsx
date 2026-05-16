@@ -132,6 +132,7 @@ export default function Canvas3DSection() {
         vel: new THREE.Vector3(),
         phase: Math.random() * Math.PI * 2,
         speed: 0.35 + Math.random() * 0.45,
+        k: 0.018 + Math.random() * 0.016,
         dragged: false,
       };
     });
@@ -224,15 +225,15 @@ export default function Canvas3DSection() {
         if (data.dragged) return;
 
         // Spring target follows idle bob + mouse parallax
-        const tx = data.origPos.x + mouse.x * 0.35;
-        const ty = data.origPos.y + Math.sin(t * data.speed + data.phase) * 0.14 + mouse.y * 0.12;
+        const tx = data.origPos.x + mouse.x * 0.65;
+        const ty = data.origPos.y + Math.sin(t * data.speed + data.phase) * 0.22 + mouse.y * 0.25;
         const tz = data.origPos.z;
 
-        // Spring physics
-        const k = 0.055, damp = 0.80;
-        data.vel.x = (data.vel.x + (tx - data.sprite.position.x) * k) * damp;
-        data.vel.y = (data.vel.y + (ty - data.sprite.position.y) * k) * damp;
-        data.vel.z = (data.vel.z + (tz - data.sprite.position.z) * k) * damp;
+        // Spring physics — low stiffness + low damping = bendy overshoot
+        const damp = 0.91;
+        data.vel.x = (data.vel.x + (tx - data.sprite.position.x) * data.k) * damp;
+        data.vel.y = (data.vel.y + (ty - data.sprite.position.y) * data.k) * damp;
+        data.vel.z = (data.vel.z + (tz - data.sprite.position.z) * data.k) * damp;
 
         data.sprite.position.x += data.vel.x;
         data.sprite.position.y += data.vel.y;

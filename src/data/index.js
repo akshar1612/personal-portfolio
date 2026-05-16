@@ -64,6 +64,39 @@ export const skills = [
   { name: "PostgreSQL",    icon: "🐘" },
 ];
 
+export const projects = [
+  {
+    num: "01",
+    title: "Data Alpha Engine",
+    subtitle: "AI-Powered quantitative research platform",
+    description:
+      "A full-stack quantitative research platform that ingests unstructured alternative data, extracts predictive signals using LLM embeddings, and backtests them against real equity returns.",
+    tags: ["React", "Python", "TypeScript", "Tensorflow", "FastAPI", "Scikit-learn"],
+    gradient: "blue-violet",
+    link: "https://github.com/akshar1612/DataAlphaEngine",
+  },
+  {
+    num: "02",
+    title: "Real-Time PR-Review Agent",
+    subtitle: "Automated PR-Review Agent",
+    description:
+      "An AI-powered code review agent that clones a PR, runs static analysis, understands context across the codebase using RAG, and leaves structured review comments — with confidence scores and links to relevant past issues.",
+    tags: ["Python", "React", "ChromaDB", "AWS EKS", "TypeScript"],
+    gradient: "cyan-blue",
+    link: "https://github.com/akshar1612/PR-Review-Agent",
+  },
+  {
+    num: "03",
+    title: "Path Finding Visualizer",
+    subtitle: "Interactive Pathfinding Visualizer",
+    description:
+      "An interactive pathfinding algorithm visualizer built with Next.js, TypeScript, and Tailwind CSS. Place a start and end node, draw walls, choose an algorithm, and watch it search in real time.",
+    tags: ["React", "Typescript", "Tailwind", "Next.js"],
+    gradient: "violet-pink",
+    link: "https://akshar1612.github.io/Path-Finder-Visualizer/",
+  },
+];
+
 export const marqueeItems = [
   "Software Developer", "·", "Python", "·", "Three.js", "·", "React", "·",
   "Artificial Intelligence", "·", "Claude Code", "·", "Cursor", "·", "Open to Work", "·",

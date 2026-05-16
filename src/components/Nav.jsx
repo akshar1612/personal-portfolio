@@ -21,8 +21,9 @@ export default function Nav() {
       <nav className="nav">
         <a href="#" className="nav-logo">Akshar Patel</a>
         <ul className="nav-links">
-          <li><a href="#work">Experience</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#work">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <button
@@ -37,8 +38,9 @@ export default function Nav() {
       {open && (
         <div className="nav-drawer" onClick={close}>
           <ul className="nav-drawer-links" onClick={e => e.stopPropagation()}>
-            <li><a href="#work" onClick={close}>Experience</a></li>
             <li><a href="#about" onClick={close}>About</a></li>
+            <li><a href="#work" onClick={close}>Experience</a></li>
+            <li><a href="#projects" onClick={close}>Projects</a></li>
             <li><a href="#contact" onClick={close}>Contact</a></li>
           </ul>
         </div>
