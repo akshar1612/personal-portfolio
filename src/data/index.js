@@ -53,16 +53,20 @@ export const experiences = [
 ];
 
 export const skills = [
-  { name: "Creative Development", pct: 0.95 },
-  { name: "Three.js / WebGL", pct: 0.88 },
-  { name: "React / Next.js", pct: 0.92 },
-  { name: "Motion Design", pct: 0.82 },
-  { name: "UI / UX Design", pct: 0.78 },
+  { name: "Claude AI",     icon: "🤖" },
+  { name: "Python",        icon: "🐍" },
+  { name: "Java",          icon: "☕" },
+  { name: "Golang",        icon: "🐹" },
+  { name: "React / Next",  icon: "⚛️" },
+  { name: "TypeScript",    icon: "🔷" },
+  { name: "AWS",           icon: "☁️" },
+  { name: "Docker",        icon: "🐳" },
+  { name: "PostgreSQL",    icon: "🐘" },
 ];
 
 export const marqueeItems = [
-  "Creative Developer", "·", "WebGL", "·", "Three.js", "·", "React", "·",
-  "Motion Design", "·", "UI / UX", "·", "Open to Work", "·",
-  "Creative Developer", "·", "WebGL", "·", "Three.js", "·", "React", "·",
-  "Motion Design", "·", "UI / UX", "·", "Open to Work", "·",
+  "Software Developer", "·", "Python", "·", "Three.js", "·", "React", "·",
+  "Artificial Intelligence", "·", "Claude Code", "·", "Cursor", "·", "Open to Work", "·",
+  "Software Developer", "·", "Python", "·", "Three.js", "·", "React", "·",
+  "Artificial Intelligence", "·", "Claude Code", "·", "Cursor", "·", "Open to Work", "·",
 ];
