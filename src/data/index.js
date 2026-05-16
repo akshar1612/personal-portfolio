@@ -5,9 +5,9 @@ export const experiences = [
     role: "Software Developer Intern",
     years: "September 2025 — April 2026",
     tags: ["Go", "Java", "Springboot", "Python", "AWS"],
-    description: "Designed and engineered a Root Cause Analysis (RCA) automation platform using React.js, integrating backend services with Java (Spring Boot), AWS (EC2, DynamoDB, API Gateway, CDK), and Docker, enabling real-time outage detection and secure data storage.",
+    description: "Designed and engineered a Root Cause Analysis (RCA) automation platform using React.js, integrating backend services with Golang, Java (Spring Boot), AWS (EC2, DynamoDB, API Gateway, CDK), and Docker, enabling real-time outage detection and secure data storage.",
     bullets: [
-      "Developed and optimized network-aware backend systems using Java and Spring Boot, applying TCP/IP, HTTP, and gRPC to improve service reliability and performance.",
+      "Developed and optimized network-aware backend systems using Golang, Java, and Spring Boot, applying TCP/IP, HTTP, and gRPC to improve service reliability and performance.",
       "Built a real-time collaboration system using WebSockets, enabling concurrent editing for distributed teams",
       "Developed and scaled backend REST APIs using Java, integrating LangChain pipelines and external AI APIs to support high-throughput RCA workflows across distributed systems.",
       "Built an LLM-driven RCA assistant using Python and LangChain, automating log analysis and root cause summarization, reducing manual triage time by 30%.",
